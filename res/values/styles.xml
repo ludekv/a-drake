@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="menuButton" parent="@android:style/Widget.Button">
+		<item name="android:textColor">?text_color</item>
+		<item name="android:background">@drawable/menu_button</item>    
+    </style>    
+</resources>

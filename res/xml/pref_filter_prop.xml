@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="flt_code"
+        android:title="@string/flt_code" />
+
+    <EditTextPreference
+        android:key="flt_name"
+        android:title="@string/flt_name" />
+
+    <EditTextPreference
+        android:key="flt_owner"
+        android:title="@string/flt_owner" />
+
+    <ListPreference
+        android:entries="@array/flt_owned"
+        android:entryValues="@array/flt_ownedValues"
+        android:key="flt_owned"
+        android:title="@string/flt_owned" android:defaultValue="all"/>
+
+    <ListPreference
+        android:entries="@array/flt_found"
+        android:entryValues="@array/flt_foundValues"
+        android:key="flt_foundStatus"
+        android:title="@string/flt_foundStatus" android:defaultValue="all"/>
+
+    <CheckBoxPreference
+        android:key="flt_active"
+        android:title="@string/flt_active" />
+
+    <CheckBoxPreference
+        android:key="flt_disabled"
+        android:title="@string/flt_disabled" />
+
+    <CheckBoxPreference
+        android:key="flt_archived"
+        android:title="@string/flt_archived" />
+
+    <CheckBoxPreference
+        android:key="flt_has_final"
+        android:title="@string/flt_has_final" />
+</PreferenceScreen>

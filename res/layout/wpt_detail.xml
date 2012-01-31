@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+
+	    <Spinner
+	        android:id="@+id/spinner1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:entries="@array/wptTypes" />
+	        
+	    <TableLayout
+	        android:id="@+id/tableLayout1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+
+		    <TableRow
+		        android:id="@+id/tableRow1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+
+		        <TextView
+		            android:id="@+id/textView1"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:text="@string/wpt_lat"		            
+		            android:layout_weight="2" />
+
+		        <ToggleButton
+		            android:id="@+id/toggleNS"
+		            android:layout_width="42dp"
+		            android:layout_height="42dp"
+		            android:background="@drawable/ic_hemisphere_ns"
+		            android:textOff=" "
+		            android:textOn=" " />
+
+				<view xmlns:android="http://schemas.android.com/apk/res/android"
+		    		class="cz.adrake.view.EditCoord"            
+		            android:id="@+id/editText1"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="3"
+		            android:maxLength="7" >
+		
+		            <requestFocus />
+				</view>
+		    </TableRow>
+
+		    <TableRow
+		        android:id="@+id/tableRow2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+
+		        <TextView
+		            android:id="@+id/textView2"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:text="@string/wpt_lon"
+		            android:layout_weight="2" />
+
+		        <ToggleButton
+		            android:id="@+id/toggleWE"
+		            android:layout_width="42dp"
+		            android:layout_height="42dp"
+		            android:textOff=" "
+		            android:textOn=" " 
+		            android:background="@drawable/ic_hemisphere_ew" />
+
+		        <view xmlns:android="http://schemas.android.com/apk/res/android"
+		    		class="cz.adrake.view.EditCoord"            
+		            android:id="@+id/editText2"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"		            
+		            android:layout_weight="3"
+		            android:maxLength="8" >
+		        </view>
+		    </TableRow>
+
+		    <TableRow
+		        android:id="@+id/tableRow3"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+
+		        <TextView
+		            android:id="@+id/textView3"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:text="@string/wpt_name"		            
+		            android:layout_weight="4" />
+
+		        <EditText
+		            android:id="@+id/editText3"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="3"
+		            android:inputType="textCapCharacters"
+		            android:maxLength="2" />
+
+		        <EditText
+		            android:id="@+id/editText4"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="6"
+		            android:inputType="text" />
+
+		    </TableRow>
+		</TableLayout>
+
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/wpt_cmt" />
+
+	    <EditText
+	        android:id="@+id/editText5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="top"
+	        android:inputType="textMultiLine"
+	        android:lines="4"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	    <TextView
+	        android:id="@+id/textView5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/wpt_note" />
+
+	    <EditText
+	        android:id="@+id/editText6"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="top"
+	        android:inputType="textMultiLine"
+	        android:lines="4"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	    <TextView
+	        android:id="@+id/textView6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/wpt_last_update" />
+
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+
+	        <Button
+	            android:id="@+id/btn_paste_formula"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/wpt_paste_formula"
+	            android:visibility="gone" />
+
+	        <Button
+	            android:id="@+id/btn_solve_formula"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/wpt_solve_formula"
+	            android:visibility="gone" />
+
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+
+	        <Button
+	            android:id="@+id/btn_ok"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@android:string/ok" />
+
+	        <Button
+	            android:id="@+id/btn_cancel"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@android:string/cancel" />
+	    </LinearLayout>
+	    
+    </LinearLayout>
+
+
+</ScrollView>

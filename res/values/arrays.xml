@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dataSrc">
+        <item >@string/a_data_src_db</item>
+        <item >@string/a_data_src_lv</item>
+    </string-array>
+    <string-array name="dataSrcValues">
+        <item >db</item>
+        <item >live</item>
+    </string-array>
+    <string-array name="units">
+        <item >@string/a_units_mtr</item>
+        <item >@string/a_units_imp</item>
+    </string-array>
+    <string-array name="unitsValues">
+        <item >metric</item>
+        <item >imperial</item>
+    </string-array>
+    <string-array name="themes">
+        <item >@string/a_theme_light</item>
+        <item >@string/a_theme_dark</item>
+    </string-array>
+    <string-array name="themeValues">
+        <item >LightTheme</item>
+        <item >DarkTheme</item>
+    </string-array>
+    <string-array name="mapWpts">
+        <item >@string/a_mapwpt_none</item>
+        <item >@string/a_mapwpt_sel</item>
+        <item >@string/a_mapwpt_nfnd</item>
+        <item >@string/a_mapwpt_all</item>
+    </string-array>   
+    <string-array name="mapWptsValues">
+        <item >none</item>
+        <item >sel</item>
+        <item >nfnd</item>
+        <item >all</item>
+    </string-array>
+    <string-array name="flt_owned">
+        <item >@string/a_owner_own</item>
+        <item >@string/a_owner_foreign</item>
+        <item >@string/a_owner_all</item>
+    </string-array>
+    <string-array name="flt_ownedValues">
+        <item >own</item>
+        <item >foreign</item>
+        <item >all</item>
+    </string-array>
+    <string-array name="flt_found">
+        <item >@string/a_found_no</item>
+        <item >@string/a_found_yes</item>
+        <item >@string/a_found_all</item>
+    </string-array>
+    <string-array name="flt_foundValues">
+        <item >notFound</item>
+        <item >found</item>
+        <item >all</item>
+    </string-array>
+    <string-array name="flt_refPoint">
+        <item >@string/a_pos_gps</item>
+        <item >@string/a_pos_man</item>
+    </string-array>
+    <string-array name="flt_refPointValues">
+        <item >GPS</item>
+        <item >manual</item>
+    </string-array>
+    <string-array name="logTypesCache">
+        <item >Found it</item>
+        <item >Didn\'t find it</item>
+        <item >Write note</item>
+        <item >Needs Maintenance</item>
+        <item >Needs Archived</item>
+    </string-array>
+    <string-array name="logTypesEvent">
+        <item >Write note</item>
+        <item >Needs Archived</item>
+        <item >Will Attend</item>
+        <item >Attended</item>
+    </string-array>
+    <string-array name="logTypesWebC">
+        <item >Webcam Photo Taken</item>
+        <item >Didn\'t find it</item>
+        <item >Write note</item>
+        <item >Needs Archived</item>
+        <item >Needs Maintenance</item>
+    </string-array>
+    <string-array name="logTypesOCache">
+        <item >Found it</item>
+        <item >Didn\'t find it</item>
+        <item >Write note</item>
+        <item >Needs Maintenance</item>
+        <item >Needs Archived</item>
+        <item >Temporarily Disable Listing</item>
+        <item >Enable Listing</item>
+        <item >Owner Maintenance</item>
+    </string-array>
+    <string-array name="logTypesOEvent">
+        <item >Write note</item>
+        <item >Needs Archived</item>
+        <item >Will Attend</item>
+        <item >Attended</item>
+        <item >Temporarily Disable Listing</item>
+        <item >Enable Listing</item>
+        <item >Owner Maintenance</item>
+        <item >Announcement</item>
+        </string-array>
+    <string-array name="logTypesOWebC">
+        <item >Webcam Photo Taken</item>
+        <item >Didn\'t find it</item>
+        <item >Write note</item>
+        <item >Needs Archived</item>
+        <item >Needs Maintenance</item>
+        <item >Temporarily Disable Listing</item>
+        <item >Enable Listing</item>
+        <item >Owner Maintenance</item>
+    </string-array>
+    <string-array name="wptTypes">
+        <item>Final Location</item>
+		<item>Parking Area</item>			
+		<item>Question to Answer</item>
+		<item>Reference Point</item>
+		<item>Stages of a Multicache</item>
+		<item>Trailhead</item>
+    </string-array>        
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:adrake="http://schemas.android.com/apk/res/cz.adrake"
+    >
+    <PreferenceCategory android:title="@string/flt_sel_all"></PreferenceCategory>
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_cache64_trad"
+        android:key="flt_ttradi"
+        android:title="@string/flt_ttradi" />
+
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_cache64_mult"
+        android:key="flt_tmulti"
+        android:title="@string/flt_tmulti" />
+
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_cache64_myst"
+        android:key="flt_tmyst"
+        android:title="@string/flt_tmyst" />
+
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_cache64_earth"
+        android:key="flt_tearth"
+        android:title="@string/flt_tearth" />
+
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_cache64_wig"
+        android:key="flt_twig"
+        android:title="@string/flt_twig" />
+
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_cache64_wcam"
+        android:key="flt_twcam"
+        android:title="@string/flt_twcam" />
+
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_cache64_letter"
+        android:key="flt_tlett"
+        android:title="@string/flt_tlett" />
+
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_cache64_event"
+        android:key="flt_tevent"
+        android:title="@string/flt_tevent" />
+
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_cache64_virt"
+        android:key="flt_tvirt"
+        android:title="@string/flt_tvirt" />
+
+    <CheckBoxPreference
+        android:key="flt_tother"
+        android:title="@string/flt_tother" />
+    
+</PreferenceScreen>

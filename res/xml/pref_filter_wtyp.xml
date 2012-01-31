@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:adrake="http://schemas.android.com/apk/res/cz.adrake" >
+
+    <PreferenceCategory android:title="@string/flt_sel_all"></PreferenceCategory>    
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_wpt_final"
+        android:key="flt_twfin"
+        android:title="@string/flt_twfin" />
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_wpt_parking"
+        android:key="flt_twpa"
+        android:title="@string/flt_twpa" />
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_wpt_qta"
+        android:key="flt_twqta"
+        android:title="@string/flt_twqta" />
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_wpt_reference"
+        android:key="flt_twref"
+        android:title="@string/flt_twref" />
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_wpt_stage"
+        android:key="flt_twsom"
+        android:title="@string/flt_twsom" />
+    <cz.adrake.utils.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_wpt_trailhead"
+        android:key="flt_twth"
+        android:title="@string/flt_twth" />
+
+</PreferenceScreen>

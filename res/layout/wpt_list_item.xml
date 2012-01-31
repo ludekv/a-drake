@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="7dp" 
+    android:background="@drawable/list_background">
+
+    <LinearLayout
+        android:id="@+id/item_lfirst"
+	    android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:weightSum="32">
+              
+		<TextView
+		    android:id="@+id/item_name"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+			android:drawableLeft="@drawable/ic_cache_trad"
+			android:drawablePadding="4dp"
+		    android:singleLine="true"
+		    android:text="Name"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textSize="18dp"
+		    android:textStyle="bold" 
+		    android:layout_weight="22"/>
+
+        <ImageView
+            android:id="@+id/item_direction"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow_e"
+            android:layout_weight="3" />      
+        <TextView
+            android:id="@+id/item_distance"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_weight="7"
+            android:singleLine="true"
+            android:text="Dist"
+            android:textSize="14dp" />
+        
+	</LinearLayout>    
+
+    <TextView
+		android:id="@+id/item_cmt"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:singleLine="true"
+		android:text="Note"
+		android:textSize="14dp" />
+</LinearLayout>

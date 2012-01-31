@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_search" 
+        android:title="@string/flt_m_search" 
+        android:icon="@drawable/ic_menu_search"></item>
+    <item android:id="@+id/menu_delete" android:title="@string/flt_m_delete" android:icon="@drawable/ic_menu_delete"></item>
+    <item android:id="@+id/menu_save" android:title="@string/flt_m_save" android:icon="@drawable/ic_menu_save" android:enabled="false"></item>
+    <item android:id="@+id/menu_load" android:title="@string/flt_m_load" android:enabled="false" android:icon="@drawable/ic_menu_load"></item>
+</menu>

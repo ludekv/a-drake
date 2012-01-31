@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/item_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="1000 m" />
+    
+	</LinearLayout>
+    
+    <cz.adrake.map.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/linearLayout1" />
+    
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:paddingRight="3dip"
+        android:paddingTop="3dip"
+        android:visibility="invisible" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/map"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="#c0ffffff">
+
+        <Button
+            android:id="@+id/btn_layer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	        android:drawableLeft="@drawable/ic_btn_map_type"
+	        android:background="@android:color/transparent"
+	        android:layout_weight="1"  />
+
+        <ToggleButton
+            android:id="@+id/btn_caches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	        android:drawableLeft="@drawable/ic_btn_caches"
+            android:textOff=""
+	        android:textOn="" 
+	        android:background="@android:color/transparent"
+	        android:layout_weight="1"  />
+
+        <ToggleButton
+            android:id="@+id/btn_labels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	        android:drawableLeft="@drawable/ic_btn_labels"
+            android:textOff=""
+	        android:textOn="" 
+	        android:background="@android:color/transparent"
+	        android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_zoom_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_btn_zoom_out"
+	        android:background="@android:color/transparent"
+	        android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_zoom_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	        android:drawableLeft="@drawable/ic_btn_zoom_in"
+	        android:background="@android:color/transparent"
+	        android:layout_weight="1" />
+    
+	    <ToggleButton
+	        android:id="@+id/btn_movmap"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:drawableLeft="@drawable/ic_btn_movmap"
+	        android:textOff=""
+	        android:textOn="" 
+	        android:background="@android:color/transparent"
+	        android:layout_weight="1" />
+    </LinearLayout>
+    
+</RelativeLayout>

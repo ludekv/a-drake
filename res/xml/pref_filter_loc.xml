@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:adrake="http://schemas.android.com/apk/res/cz.adrake"
+    >
+
+    <EditTextPreference
+        android:key="flt_distance"
+        android:title="@string/flt_distance" android:defaultValue="10"/>
+
+    <ListPreference
+        android:entries="@array/flt_refPoint"
+        android:entryValues="@array/flt_refPointValues"
+        android:key="flt_refPoint"
+        android:title="@string/flt_refPoint" android:defaultValue="GPS"/>
+
+    <PreferenceCategory android:title="@string/flt_man_coords" >
+        <cz.adrake.utils.CoordPreference
+            android:dependency="flt_refPoint"
+            android:key="flt_man_lat"
+            android:title="@string/wpt_lat"
+            android:maxLength="11" />
+        <cz.adrake.utils.CoordPreference
+            android:dependency="flt_refPoint"
+            android:key="flt_man_lon"
+            android:title="@string/wpt_lon"
+            android:maxLength="12" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="files"
+        android:title="@string/pref_files_folder" >
+        <cz.adrake.utils.FilePreference
+            android:defaultValue="/mnt/sdcard/adrake/cachedb.db3"
+            android:key="database"
+            android:title="@string/pref_database" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="settings"
+        android:title="@string/pref_settings" >
+        <ListPreference
+            android:defaultValue="db"
+            android:entries="@array/dataSrc"
+            android:entryValues="@array/dataSrcValues"
+            android:key="dataSrc"
+            android:title="@string/pref_data_src" />
+
+        <EditTextPreference
+            android:key="nickname"
+            android:title="@string/pref_nickname" />
+
+        <ListPreference
+            android:defaultValue="metric"
+            android:entries="@array/units"
+            android:entryValues="@array/unitsValues"
+            android:key="units"
+            android:title="@string/pref_units" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="design"
+        android:title="@string/pref_design" >
+        <ListPreference
+            android:defaultValue="LightTheme"
+            android:entries="@array/themes"
+            android:entryValues="@array/themeValues"
+            android:key="theme"
+            android:title="@string/pref_theme" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="map" android:title="@string/det_map">
+        <ListPreference android:entryValues="@array/mapWptsValues" android:key="pref_map_wpts" android:entries="@array/mapWpts" android:title="@string/pref_map_wpts" android:defaultValue="none"/><ListPreference android:title="@string/pref_map_src" android:key="pref_map_src"/>
+        <ListPreference android:title="@string/pref_map_type" android:key="pref_map_type"/>
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>
