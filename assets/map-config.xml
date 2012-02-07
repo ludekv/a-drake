@@ -1,0 +1,116 @@
+<PocketDrake>
+  <MapSource>
+    <type>MapyCz</type>
+    <name>Mapy CZ</name>
+    <storage>database</storage>
+    <MapType mode="basic">
+      <name language="cs">Turistická</name>
+      <name>Hiking</name>
+      <file>turist</file>
+      <url>http://m1.mapserver.mapy.cz/turist/{z}_{x}_{y}</url>
+      <defaultZoom>12</defaultZoom>
+      <minZoom>3</minZoom>
+      <maxAvailZoom>13</maxAvailZoom>
+      <maxZoom>16</maxZoom>
+    </MapType>
+    <MapType mode="basic">
+      <name language="cs">Základní</name>
+      <name>Basic</name>
+      <file>base_n</file>
+      <url>http://m1.mapserver.mapy.cz/base-n/{z}_{x}_{y}</url>
+      <defaultZoom>12</defaultZoom>
+      <minZoom>3</minZoom>
+      <maxZoom>16</maxZoom>
+    </MapType>
+    <MapType mode="basic">
+      <name language="cs">Ortofoto</name>
+      <name>Ortophoto</name>
+      <file>ophoto</file>
+      <url>http://m1.mapserver.mapy.cz/ophoto/{z}_{x}_{y}</url>
+      <defaultZoom>12</defaultZoom>
+      <minZoom>3</minZoom>
+      <maxZoom>17</maxZoom>
+    </MapType>
+    <MapType mode="overlay">
+      <name language="cs">Turistické trasy</name>
+      <name>Hiking trails</name>
+      <file>ttur</file>
+      <invertY/>
+      <url>http://m1.mapserver.mapy.cz/ttur/{z}_{x}_{y}</url>
+      <defaultZoom>12</defaultZoom>
+      <minZoom>3</minZoom>
+      <maxZoom>13</maxZoom>
+    </MapType>
+    <MapType mode="overlay">
+      <name language="cs">Cyklotrasy</name>
+      <name>Bike trails</name>
+      <file>tcyklo</file>
+      <invertY/>
+      <url>http://m1.mapserver.mapy.cz/tcyklo/{z}_{x}_{y}</url>
+      <defaultZoom>12</defaultZoom>
+      <minZoom>3</minZoom>
+      <maxZoom>13</maxZoom>
+    </MapType>
+  </MapSource>
+  <MapSource>
+    <type>Google</type>
+    <name>Google Maps</name>
+    <storage>database</storage>
+    <MapType mode="basic">
+      <name language="cs">Základní</name>
+      <name>Basic</name>
+      <file>google\map</file>
+      <url>http://mt0.google.com/vt/x={x}&amp;y={y}&amp;z={z}</url>
+      <defaultZoom>14</defaultZoom>
+      <minZoom>1</minZoom>
+      <maxZoom>18</maxZoom>
+    </MapType>
+    <MapType mode="basic">
+      <name language="cs">Satelitní</name>
+      <name>Sattelite</name>
+      <file>google\sat</file>
+      <url>http://khm1.google.com/kh/v=63&amp;x={x}&amp;y={y}&amp;z={z}</url>
+      <defaultZoom>14</defaultZoom>
+      <minZoom>1</minZoom>
+      <maxZoom>18</maxZoom>
+    </MapType>
+    <MapType mode="basic">
+      <name language="cs">Terénní</name>
+      <name>Terrain</name>
+      <file>google\terr</file>
+      <url>http://mt0.google.com/vt/lyrs=t@126,r@142&amp;hl=cs&amp;x={x}&amp;y={y}&amp;z={z}</url>
+      <defaultZoom>14</defaultZoom>
+      <minZoom>1</minZoom>
+      <maxZoom>18</maxZoom>
+    </MapType>
+  </MapSource>
+  <MapSource>
+    <type>Google</type>
+    <name>Open Street Map</name>
+    <storage>database</storage>
+    <MapType mode="basic">
+      <name language="cs">Mapnik</name>
+      <file>osm\mapnik</file>
+      <url>http://a.tile.openstreetmap.org/{z}/{x}/{y}.png</url>
+      <defaultZoom>14</defaultZoom>
+      <minZoom>1</minZoom>
+      <maxZoom>18</maxZoom>
+    </MapType>
+    <MapType mode="basic">
+      <name language="cs">OpenTrackMap</name>
+      <file>osm\opentrackmap</file>
+      <url>http://opentrackmap.no-ip.org/tiles/{z}/{x}/{y}.png</url>
+      <defaultZoom>14</defaultZoom>
+      <minZoom>1</minZoom>
+      <maxZoom>16</maxZoom>
+    </MapType>
+    <MapType mode="basic">
+      <name language="cs">Public Transport</name>
+      <file>osm\public</file>
+      <url>http://tile.xn--pnvkarte-m4a.de/tilegen/{z}/{x}/{y}.png</url>
+      <defaultZoom>14</defaultZoom>
+      <minZoom>2</minZoom>
+      <maxZoom>16</maxZoom>
+    </MapType>
+  </MapSource>
+</PocketDrake>
