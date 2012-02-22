@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="about_1">Komplexní řešení pro geocaching</string>
     <string name="about_appver">Verze aplikace</string>
     <string name="about_dbver">Verze databáze GeoGet</string>
