@@ -140,12 +140,25 @@
             android:layout_height="wrap_content"
             android:text="Coords" />
 
-        <Button
-            android:id="@+id/btn_hint"
+		<LinearLayout
+            android:id="@+id/linearLayout1"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/main_hint_show" />
-
+            android:layout_height="wrap_content" >
+	        <Button
+	            android:id="@+id/btn_hint"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:text="@string/main_hint_show"
+	            android:layout_weight="1" />
+	
+	        <Button
+	            android:id="@+id/btn_not_found"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:text="@string/log_notFound"
+	            android:layout_weight="1" />
+        </LinearLayout>
+        
         <TextView
             android:id="@+id/item_hint"
             android:layout_width="wrap_content"
@@ -183,8 +196,6 @@
             android:drawableTop="@drawable/ic_det_compass"
             android:text="@string/det_navigate"
             android:textSize="12dp" />
-
-<!--             android:background="@drawable/menu_button" -->
         
 	</LinearLayout>
 

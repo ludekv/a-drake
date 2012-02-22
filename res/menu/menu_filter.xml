@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:id="@+id/menu_search" 
-        android:title="@string/flt_m_search" 
-        android:icon="@drawable/ic_menu_search"></item>
-    <item android:id="@+id/menu_delete" android:title="@string/flt_m_delete" android:icon="@drawable/ic_menu_delete"></item>
-    <item android:id="@+id/menu_save" android:title="@string/flt_m_save" android:icon="@drawable/ic_menu_save" android:enabled="false"></item>
-    <item android:id="@+id/menu_load" android:title="@string/flt_m_load" android:enabled="false" android:icon="@drawable/ic_menu_load"></item>
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_menu_search"
+        android:title="@string/flt_m_search">
+    </item>
+    <item
+        android:id="@+id/menu_map"
+        android:icon="@drawable/ic_menu_web"
+        android:title="@string/det_map">
+    </item>
+    <item
+        android:id="@+id/menu_clear"
+        android:icon="@drawable/ic_menu_revert"
+        android:title="@string/flt_m_clear">
+    </item>
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/ic_menu_save"
+        android:title="@string/flt_m_save">
+        <menu></menu>
+    </item>
+    <item
+        android:id="@+id/menu_load"
+        android:icon="@drawable/ic_menu_load"
+        android:title="@string/flt_m_load">
+        <menu></menu>
+    </item>
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_menu_delete"
+        android:title="@string/flt_m_delete">
+        <menu></menu>
+    </item>
+
 </menu>

@@ -3,9 +3,10 @@
     xmlns:adrake="http://schemas.android.com/apk/res/cz.adrake"
     >
 
-    <EditTextPreference
+    <cz.adrake.ui.EditTextDelPreference
+        android:defaultValue="10"
         android:key="flt_distance"
-        android:title="@string/flt_distance" android:defaultValue="10"/>
+        android:title="@string/flt_distance" />
 
     <ListPreference
         android:entries="@array/flt_refPoint"
@@ -14,12 +15,12 @@
         android:title="@string/flt_refPoint" android:defaultValue="GPS"/>
 
     <PreferenceCategory android:title="@string/flt_man_coords" >
-        <cz.adrake.utils.CoordPreference
+        <cz.adrake.ui.CoordPreference
             android:dependency="flt_refPoint"
             android:key="flt_man_lat"
             android:title="@string/wpt_lat"
             android:maxLength="11" />
-        <cz.adrake.utils.CoordPreference
+        <cz.adrake.ui.CoordPreference
             android:dependency="flt_refPoint"
             android:key="flt_man_lon"
             android:title="@string/wpt_lon"

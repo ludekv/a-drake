@@ -1,43 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <EditTextPreference
+    <cz.adrake.ui.EditTextDelPreference
         android:key="flt_code"
         android:title="@string/flt_code" />
-
-    <EditTextPreference
+    <cz.adrake.ui.EditTextDelPreference
         android:key="flt_name"
         android:title="@string/flt_name" />
-
-    <EditTextPreference
+    <cz.adrake.ui.EditTextDelPreference
         android:key="flt_owner"
         android:title="@string/flt_owner" />
 
     <ListPreference
+        android:defaultValue="all"
         android:entries="@array/flt_owned"
         android:entryValues="@array/flt_ownedValues"
         android:key="flt_owned"
-        android:title="@string/flt_owned" android:defaultValue="all"/>
-
+        android:title="@string/flt_owned" />
     <ListPreference
+        android:defaultValue="all"
         android:entries="@array/flt_found"
         android:entryValues="@array/flt_foundValues"
         android:key="flt_foundStatus"
-        android:title="@string/flt_foundStatus" android:defaultValue="all"/>
+        android:title="@string/flt_foundStatus" />
 
     <CheckBoxPreference
         android:key="flt_active"
         android:title="@string/flt_active" />
-
     <CheckBoxPreference
         android:key="flt_disabled"
         android:title="@string/flt_disabled" />
-
     <CheckBoxPreference
         android:key="flt_archived"
         android:title="@string/flt_archived" />
-
     <CheckBoxPreference
         android:key="flt_has_final"
         android:title="@string/flt_has_final" />
+
+    <cz.adrake.ui.EditTextDelPreference
+        android:defaultValue="500"
+        android:key="flt_max_rows"
+        android:title="@string/flt_max_rows" />
+
 </PreferenceScreen>

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
-    xmlns:adrake="http://schemas.android.com/apk/res/cz.adrake"
-    >
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:adrake="http://schemas.android.com/apk/res/cz.adrake" >
 
+    <ListPreference
+        android:defaultValue="off"
+        android:entries="@array/flt_tag"
+        android:entryValues="@array/flt_tagValues"
+        android:key="flt_use_tag"
+        android:title="@string/flt_use_tag" />
+    <ListPreference
+        android:key="flt_tag_category"
+        android:title="@string/flt_tag_category" />
+
+    <ListPreference
+        android:key="flt_tag_value"
+        android:title="@string/flt_tag_value" />
 </PreferenceScreen>

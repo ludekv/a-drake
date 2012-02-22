@@ -4,4 +4,7 @@
     <color name="menu_button_active">#6FB6FF</color>
     <color name="text_white">#FFFFFF</color>
     <color name="text_black">#000000</color>
+    <color name="accuracy_fill">#30c0daf6</color>
+    <color name="accuracy_stroke">#ff015cc3</color>
+    <color name="track">#ffff9116</color>
 </resources>

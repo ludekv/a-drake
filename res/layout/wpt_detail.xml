@@ -100,7 +100,7 @@
 		            android:inputType="textCapCharacters"
 		            android:maxLength="2" />
 
-		        <EditText
+		        <cz.adrake.view.EditTextDel
 		            android:id="@+id/editText4"
 		            android:layout_width="0dp"
 		            android:layout_height="wrap_content"
@@ -108,8 +108,7 @@
 		            android:inputType="text" />
 
 		    </TableRow>
-		</TableLayout>
-
+		</TableLayout>
 	    <TextView
 	        android:id="@+id/textView4"
 	        android:layout_width="wrap_content"
@@ -170,7 +169,7 @@
 	    </LinearLayout>
 	    
 	    <LinearLayout
-	        android:id="@+id/linearLayout1"
+	        android:id="@+id/linearLayout2"
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content" >
 

@@ -84,6 +84,14 @@
 	        android:layout_weight="1" />
 
         <Button
+            android:id="@+id/btn_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_preferences"
+	        android:background="@android:color/transparent"
+	        android:layout_weight="1" />
+        
+        <Button
             android:id="@+id/btn_zoom_out"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

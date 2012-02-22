@@ -19,7 +19,7 @@
         <Button
             android:id="@+id/handle"
             android:layout_width="wrap_content"
-            android:layout_height="33dp"
+            android:layout_height="18dp"
 			android:background="@drawable/handle_collapsed_background" />
 
         <LinearLayout
