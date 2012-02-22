@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_alert_1"
+        android:title="@string/pref_alert_1" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_alert_on1"
+            android:title="@string/pref_alert_on" />
+
+        <cz.adrake.ui.EditTextDelPreference
+            android:defaultValue="30"
+            android:dependency="pref_alert_on1"
+            android:key="pref_alert_dist1"
+            android:title="@string/pref_alert_dist" />
+
+        <RingtonePreference
+            android:key="pref_alert_sound1"
+            android:ringtoneType="notification"
+            android:title="Zvuk" android:dependency="pref_alert_on1"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_alert_2"
+        android:title="@string/pref_alert_2" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_alert_on2"
+            android:title="@string/pref_alert_on" />
+
+        <cz.adrake.ui.EditTextDelPreference
+            android:defaultValue="200"
+            android:dependency="pref_alert_on2"
+            android:key="pref_alert_dist2"
+            android:title="@string/pref_alert_dist" />
+
+        <RingtonePreference
+            android:key="pref_alert_sound2"
+            android:ringtoneType="notification"
+            android:title="Zvuk" android:dependency="pref_alert_on2"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/map_clear_track" android:title="@string/map_clear_track"></item>
+    <item android:id="@+id/map_cancel_nav" android:title="@string/map_cancel_nav"></item><item android:id="@+id/map_center_nav" android:title="@string/map_center_nav"></item><item android:id="@+id/map_settings" android:title="@string/mm_settings"></item>
+    <item android:id="@+id/map_filter" android:title="@string/mm_filter"></item>
+    
+    
+    
+
+</menu>

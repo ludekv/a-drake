@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/pl_exp_fn"
+        android:icon="@drawable/ic_menu_save"
+        android:title="@string/pl_export_fn">
+    </item>
+    <item
+        android:id="@+id/pl_send_web"
+        android:icon="@drawable/ic_menu_upload"
+        android:title="@string/pl_send_web">
+    </item>
+    <item
+        android:id="@+id/pl_delete"
+        android:icon="@drawable/ic_menu_delete"
+        android:title="@string/pl_delete">
+    </item>
+    <item
+        android:id="@+id/pl_select_all"
+        android:icon="@drawable/ic_menu_mark"
+        android:title="@string/pl_select_all">
+    </item>
+    <item
+        android:id="@+id/pl_invert_sel"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="@string/pl_invert_sel">
+    </item>
+    
+</menu>
