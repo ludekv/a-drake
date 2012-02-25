@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="a_data_src_db">Databáze</string>
     <string name="a_data_src_lv">Geocaching Live</string>
     <string name="a_fn_time_1">Přesný čas</string>
-    <string name="a_fn_time_5">5 minut</string>
     <string name="a_fn_time_10">10 minut</string>
     <string name="a_fn_time_15">15 minut</string>
+    <string name="a_fn_time_5">5 minut</string>
     <string name="a_found_all">Všechno</string>
     <string name="a_found_no">Nenalezená</string>
     <string name="a_found_yes">Nalezená</string>
@@ -29,7 +28,6 @@
     <string name="about_1">Komplexní řešení pro geocaching</string>
     <string name="about_appver">Verze aplikace</string>
     <string name="about_dbver">Verze databáze GeoGet</string>
-    <string name="about_live_status">Stav Geocaching Live</string>
     <string name="about_live_1">Přezdívka</string>
     <string name="about_live_2">Typ členství</string>
     <string name="about_live_3">Počet nálezů</string>
@@ -39,11 +37,11 @@
     <string name="about_live_7">Limit</string>
     <string name="about_live_8">Použito</string>
     <string name="about_live_9">nemusí být přesné, aktualizuje se při stažení keší</string>        
+    <string name="about_live_status">Stav Geocaching Live</string>
     <string name="about_release_notes">Poznámky k vydání</string>
     <string name="about_sqlver">Verze SQLite</string>
     <string name="about_url">http://www.adrake.cz</string>
     <string name="app_name">a:Drake</string>
-    <string name="average">Průměrování</string>
     <string name="cache_del_confirm">Skutečně chcete vymazat tuto keš?</string>
     <string name="cache_deleted">smazáno</string>
     <string name="cps_north_up">Nastaven sever vždy nahoře</string>
@@ -136,11 +134,11 @@
     <string name="flt_wptType">Typ waypointu</string>
     <string name="imp_progress">Importuje se soubor</string>
     <string name="imp_result">Výsledek importu</string>
-    <string name="live_info">Zbývá: #1; dnes staženo: #2; limit: #3</string>
-    <string name="live_title">Přístup Live</string>
     <string name="live_bmw1">Jako Basic Member na geocaching.com můžeš stáhnout plné detaily nejvýše 3 keší za 24 hodin.</string>
     <string name="live_bmw2">Po stažení této keše ti zbyde #1 keš(e) do #2, kdy bude limit vynulován.</string>
     <string name="live_bmw3">Pořiď si Premium členství na Geocaching.com za US $30 na rok a budeš moci stáhnout plné detaily až pro 6000 keší denně, uvidíš všechny typy keší v okolí a dostaneš další výhody. Navštiv geocaching.com.</string>    
+    <string name="live_info">Zbývá: #1; dnes staženo: #2; limit: #3</string>
+    <string name="live_title">Přístup Live</string>
     <string name="locAccuracy">Přesnost</string>
     <string name="locProvider">Zdroj polohy</string>
     <string name="log_add">Napsat nový log</string>
@@ -215,11 +213,20 @@
     <string name="pref_tab_map">Mapy</string>
     <string name="pref_theme">Barevný motiv</string>
     <string name="pref_units">Jednotky</string>
-    <string name="trip">Výlet</string>
+    <string name="search_m_sort">Seřadit</string>
+    <string name="search_m_sort_age">Stáří</string>
+    <string name="search_m_sort_auth">Jméno autora</string>
+    <string name="search_m_sort_diff">Obtížnost</string>
+    <string name="search_m_sort_dist">Vzdálenost</string>
+    <string name="search_m_sort_found">Datum nálezu</string>
+    <string name="search_m_sort_name">Název</string>
+    <string name="search_m_sort_size">Velikost</string>
+    <string name="search_m_sort_terr">Terén</string>
     <string name="wpt_add">Založit nový waypoint</string>
     <string name="wpt_cm_del">Vymazat waypoint</string>
     <string name="wpt_cm_edit">Upravit waypoint</string>
     <string name="wpt_cm_nav">Navigovat k waypointu</string>
+    <string name="wpt_cm_proj">Projekce waypointu</string>
     <string name="wpt_cmt">Cmt.</string>
     <string name="wpt_coord_invalid">Použijte formát DD°MM.MMM (° lze nahradit \\, : nebo d)</string>
     <string name="wpt_del_confirm">Skutečně chcete vymazat tento waypoint?</string>
@@ -231,6 +238,8 @@
     <string name="wpt_paste_formula">Vložit vzorce</string>
     <string name="wpt_prefix_invalid">Užito</string>
     <string name="wpt_prefix_missing">Chybí</string>
+    <string name="wpt_proj_bearing">Azimut k novému bodu</string>
+    <string name="wpt_proj_distance">Vzdálenost k novému bodu</string>
     <string name="wpt_solve_formula">Vypočítat vzorce</string>
-
+    <string name="wpt_sum">Ciferný součet</string>
 </resources>
