@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:adrake="http://schemas.android.com/apk/res/cz.adrake" >
+
+    <PreferenceCategory android:title="@string/flt_diff" >
+        <ListPreference
+            android:entries="@array/flt_stars"
+            android:entryValues="@array/flt_starsValues"
+            android:key="flt_diff_lo"
+            android:title="@string/flt_stars_ge" android:defaultValue="1.0"/>
+        <ListPreference
+            android:entries="@array/flt_stars"
+            android:entryValues="@array/flt_starsValues"
+            android:key="flt_diff_hi"
+            android:title="@string/flt_stars_le" android:defaultValue="5.0"/>
+        </PreferenceCategory>
+    <PreferenceCategory android:title="@string/flt_terr" >
+        <ListPreference
+            android:entries="@array/flt_stars"
+            android:entryValues="@array/flt_starsValues"
+            android:key="flt_terr_lo"
+            android:title="@string/flt_stars_ge" android:defaultValue="1.0"/>
+        <ListPreference
+            android:entries="@array/flt_stars"
+            android:entryValues="@array/flt_starsValues"
+            android:key="flt_terr_hi"
+            android:title="@string/flt_stars_le" android:defaultValue="5.0"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/flt_size" >
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/flt_sel_all" >
+    </PreferenceCategory>
+
+    <cz.adrake.ui.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_size_m"
+        android:key="flt_size_m"
+        android:title="Micro" />
+    <cz.adrake.ui.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_size_s"
+        android:key="flt_size_s"
+        android:title="Small" />
+    <cz.adrake.ui.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_size_r"
+        android:key="flt_size_r"
+        android:title="Regular" />
+    <cz.adrake.ui.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_size_l"
+        android:key="flt_size_l"
+        android:title="Large" />
+    <cz.adrake.ui.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_size_nc"
+        android:key="flt_size_nc"
+        android:title="@string/flt_size_nc" />
+    <cz.adrake.ui.IconCheckBoxPreference
+        adrake:icon="@drawable/ic_size_o"
+        android:key="flt_size_o"
+        android:title="@string/flt_size_o" />
+
+</PreferenceScreen>

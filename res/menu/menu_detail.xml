@@ -4,6 +4,10 @@
         android:title="@string/det_m_refresh" 
         android:icon="@drawable/ic_menu_refresh"></item>
 
+    <item android:id="@+id/menu_refr_logs" 
+        android:title="@string/det_m_refr_logs" 
+        android:icon="@drawable/ic_menu_ref_logs"></item>
+
     <item android:id="@+id/menu_setref" 
         android:title="@string/det_m_setref" 
         android:icon="@drawable/ic_menu_setref"></item>

@@ -3,4 +3,6 @@
     <item android:id="@+id/wpt_nav" android:title="@string/wpt_cm_nav"></item><item android:id="@+id/wpt_edit" android:title="@string/wpt_cm_edit"></item>
     
     <item android:id="@+id/wpt_del" android:title="@string/wpt_cm_del"></item>
+    <item android:id="@+id/wpt_proj" android:title="@string/wpt_cm_proj"></item>
+    <item android:id="@+id/wpt_ref" android:title="@string/det_m_setref"></item>
 </menu>

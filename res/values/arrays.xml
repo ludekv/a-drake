@@ -28,6 +28,16 @@
         <item >10</item>
         <item >15</item>
     </string-array>
+    <string-array name="fn_publish">
+        <item >@string/a_fn_publish1</item>
+        <item >@string/a_fn_publish2</item>
+<!--         <item >@string/a_fn_publish3</item> -->
+    </string-array>
+    <string-array name="fn_publishValues">
+        <item >save</item>
+        <item >publish</item>
+<!--         <item >ask</item> -->
+    </string-array>
     <string-array name="themes">
         <item >@string/a_theme_light</item>
         <item >@string/a_theme_dark</item>
@@ -68,6 +78,28 @@
         <item >found</item>
         <item >all</item>
     </string-array>
+    <string-array name="flt_stars">
+        <item >*</item>
+        <item >* &#189;</item>
+        <item >**</item>
+        <item >** &#189;</item>
+        <item >***</item>
+        <item >*** &#189;</item>
+        <item >****</item>
+        <item >**** &#189;</item>
+        <item >*****</item>
+	</string-array>
+    <string-array name="flt_starsValues">
+        <item >1.0</item>
+        <item >1.5</item>
+        <item >2.0</item>
+        <item >2.5</item>
+        <item >3.0</item>
+        <item >3.5</item>
+        <item >4.0</item>
+        <item >4.5</item>
+        <item >5.0</item>
+	</string-array>
     <string-array name="flt_refPoint">
         <item >@string/a_pos_gps</item>
         <item >@string/a_pos_man</item>

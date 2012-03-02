@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_sort"
+        android:icon="@drawable/ic_menu_sort"
+        android:title="@string/search_m_sort">
+        <menu>
+            <item
+                android:id="@+id/menu_sort_dist"
+                android:checkable="true"
+                android:title="@string/search_m_sort_dist"/>
+            <item
+                android:id="@+id/menu_sort_name"
+                android:checkable="true"
+                android:title="@string/search_m_sort_name"/>
+            <item
+                android:id="@+id/menu_sort_auth"
+                android:checkable="true"
+                android:title="@string/search_m_sort_auth"/>
+            <item
+                android:id="@+id/menu_sort_diff"
+                android:checkable="true"
+                android:title="@string/search_m_sort_diff"/>
+            <item
+                android:id="@+id/menu_sort_terr"
+                android:checkable="true"
+                android:title="@string/search_m_sort_terr"/>
+            <item
+                android:id="@+id/menu_sort_size"
+                android:checkable="true"
+                android:title="@string/search_m_sort_size"/>
+            <item
+                android:id="@+id/menu_sort_age"
+                android:checkable="true"
+                android:title="@string/search_m_sort_age"/>
+            <item
+                android:id="@+id/menu_sort_found"
+                android:checkable="true"
+                android:title="@string/search_m_sort_found"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_status"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="@string/search_m_status">
+    </item>
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:key="logs"
+        android:title="@string/pref_logs" >
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/fn_time"
+            android:entryValues="@array/fn_timeValues"
+            android:key="pref_fn_time"
+            android:title="@string/pref_fn_time" />
+
+        <cz.adrake.ui.EditLogTemplatePreference
+            android:defaultValue="[T] #[N]\r\n[L]"
+            android:key="exp_fn_template"
+            android:title="@string/exp_fn_template" />
+
+        <ListPreference
+            android:defaultValue="publish"
+            android:entries="@array/fn_publish"
+            android:entryValues="@array/fn_publishValues"
+            android:key="pref_fn_publish"
+            android:title="@string/pref_fn_publish" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_fn_delete"
+            android:summary="@string/pref_del_fn1"
+            android:title="@string/pref_del_fn" />
+
+        <cz.adrake.ui.EditTextDelPreference
+            android:defaultValue="0"
+            android:key="pref_extra_founds"
+            android:title="@string/pref_extra_founds" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

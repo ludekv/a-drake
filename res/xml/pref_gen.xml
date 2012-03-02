@@ -29,26 +29,7 @@
             android:entryValues="@array/unitsValues"
             android:key="units"
             android:title="@string/pref_units" />
-    </PreferenceCategory>
-    <PreferenceCategory
-        android:key="logs"
-        android:title="@string/pref_logs" >
-        <ListPreference android:key="pref_fn_time" android:title="@string/pref_fn_time" android:entries="@array/fn_time" android:entryValues="@array/fn_timeValues" android:defaultValue="5"/><cz.adrake.ui.EditLogTemplatePreference
-            android:defaultValue="[T] #[N]\r\n[L]"
-            android:key="exp_fn_template"
-            android:title="@string/exp_fn_template" />
-
-        <CheckBoxPreference
-            android:defaultValue="false"
-            android:key="pref_fn_delete"
-            android:summary="@string/pref_del_fn1"
-            android:title="@string/pref_del_fn" />
-
-        <cz.adrake.ui.EditTextDelPreference
-            android:defaultValue="0"
-            android:key="pref_extra_founds"
-            android:title="@string/pref_extra_founds" />
-        
+        <CheckBoxPreference android:key="useRadar" android:title="@string/pref_use_radar" android:summary="@string/pref_use_radar2"/>
     </PreferenceCategory>
     <PreferenceCategory
         android:key="design"
