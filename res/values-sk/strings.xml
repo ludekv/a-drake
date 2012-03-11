@@ -2,7 +2,7 @@
 <resources>
 
     <string name="_empty"></string>
-    <string name="a_data_src_db">Dátabáza</string>
+    <string name="a_data_src_db">Databáza</string>
     <string name="a_data_src_lv">Geocaching Live</string>
     <string name="a_fn_publish1">Iba uložiť ako Field Note</string>
     <string name="a_fn_publish2">Ihneď publikovať ako log</string>
@@ -15,7 +15,7 @@
     <string name="a_found_no">Nenájdená</string>
     <string name="a_found_yes">Nájdená</string>
     <string name="a_mapwpt_all">Zobraziť všetky</string>
-    <string name="a_mapwpt_nfnd">Iba k nájdeným KEŠÍM?</string>
+    <string name="a_mapwpt_nfnd">Iba k nájdeným skrýšiam</string>
     <string name="a_mapwpt_none">Nezobrazovať</string>
     <string name="a_mapwpt_sel">Iba k vybranej keši</string>
     <string name="a_owner_all">Všetko</string>
@@ -44,7 +44,7 @@
     <string name="about_live_9">nemusí byť presné, aktualizuje se pri stiahnutí keší</string>
     <string name="about_live_status">Stav Geocaching Live</string>
     <string name="about_release_notes">Poznámky k vydaniu</string>
-    <string name="about_sqlver">Verze SQLite</string>
+    <string name="about_sqlver">Verzia SQLite</string>
     <string name="about_url">http://www.adrake.cz</string>
     <string name="app_name">a:Drake</string>
     <string name="cache_del_confirm">Skutočne chcete vymazať túto keš?</string>
@@ -153,7 +153,7 @@
     <string name="imp_result">Výsledok importu</string>
     <string name="live_bmw1">Ako Basic Member na geocaching.com môžeš stiahnuť plné detaily nejviac u 3 keší za 24 hodin.</string>
     <string name="live_bmw2">Po stiahnutí tejto keše ti zostane #1 keš(í) do #2, kedy bude limit vynulovaný.</string>
-    <string name="live_bmw3">(Za)Obstaraj(kúp)zadovážiť? si Premium členstvo na Geocaching.com za US $30 na rok a budeš môcť stiahnuť plné detaily až pre 6000 keší denn, uvidíš všetky typy keší v okolí a dostaneš ďalšie výhody. Navštív geocaching.com.</string>
+    <string name="live_bmw3">Zadováž si Premium členstvo na Geocaching.com za US $30 na rok a budeš môcť stiahnuť plné detaily až pre 6000 keší denne, uvidíš všetky typy keší v okolí a dostaneš ďalšie výhody. Navštív geocaching.com.</string>
     <string name="live_info">Zostáva: #1; dnes stiahnuté: #2; limit: #3</string>
     <string name="live_loading_more">Načítam ďalšie(í?)…</string>
     <string name="live_loading_wait">Nie tak rýchlo…</string>
@@ -168,7 +168,7 @@
     <string name="log_pending">Log doteraz nebol odoslaný na web</string>
     <string name="log_pendingDeleted">Čakajúce logy tejto keše boli vymazané</string>
     <string name="log_save">Uložiť</string>
-    <string name="log_saved">Tento log bol uložený do dá???tabáze</string>
+    <string name="log_saved">Tento log bol uložený do databáze</string>
     <string name="log_sendWeb">Uložiť a odoslať na web</string>
     <string name="log_sentWeb">Tento log bol uložený a odoslaný na web</string>
     <string name="log_setNotFound">Táto keš bola nastavená ako nenájdená (`Not found`)</string>
@@ -177,11 +177,11 @@
     <string name="main_date_hidden">Ukryté</string>
     <string name="main_date_updated">Aktualizované</string>
     <string name="main_hint_decrypt">Dešifrovať/Zašifrovať</string>
-    <string name="main_hint_show">Ukázať(asi zobraziť?) hint</string>
+    <string name="main_hint_show">Ukázať hint</string>
     <string name="map_cancel_nav">Zrušiť navigáciu</string>
     <string name="map_center_nav">Na cieľ navigácie</string>
     <string name="map_clear_track">Vymazať stopu</string>
-    <string name="map_pt_count">Zobrazeno # bodov</string>
+    <string name="map_pt_count">Zobrazených # bodov</string>
     <string name="mm_about">O programu</string>
     <string name="mm_cipher">Kódy, šifry</string>
     <string name="mm_filter">Filter</string>
@@ -195,17 +195,17 @@
     <string name="mm_settings">Nastavenie</string>
     <string name="mm_track_log_mngr">Správa stôp</string>
     <string name="mm_wpts">Ad-hoc waypointy</string>
-    <string name="no_caches">Neboli nájdené žiadné keše odpovedajúce nastavenému filtru</string>
+    <string name="no_caches">Neboli nájdené žiadne keše odpovedajúce nastavenému filtru</string>
     <string name="no_logs">Nie sú žiadne čakajúce logy</string>
     <string name="no_tags">Táto keš nemá žiadne tagy</string>
     <string name="no_tracks">Nie sú žiadne stopy</string>
     <string name="no_wpts">Táto keš nemá žiadne waypointy</string>
-    <string name="oa_login_start">Spúsťa sa proces přihlásenia Geocaching Live, prosím čakajte…</string>
+    <string name="oa_login_start">Spúšťa sa proces prihlásenia Geocaching Live, prosím čakajte…</string>
     <string name="pl_delete">Vymazať</string>
     <string name="pl_export_fn">Export Field Notes</string>
     <string name="pl_invert_sel">Otočiť výber</string>
     <string name="pl_select_all">Vybrať všetko</string>
-    <string name="pl_send_result">Na web bolo odeslaných # logov</string>
+    <string name="pl_send_result">Na web bolo odoslaných # logov</string>
     <string name="pl_send_web">Odoslať na web</string>
     <string name="pl_sending_web">Logy sa odosielajú na web, prosím čakajte…</string>
     <string name="pref_alert_1">Prvý signál</string>
@@ -214,16 +214,16 @@
     <string name="pref_alert_on">Signál pri priblížení</string>
     <string name="pref_alert_sound">Zvuk</string>
     <string name="pref_data_src">Zdroj dát</string>
-    <string name="pref_database">Dátabáza</string>
+    <string name="pref_database">Databáza</string>
     <string name="pref_del_fn">Výmaz po exportu</string>
     <string name="pref_del_fn1">Po exportu Field Notes vymazať log</string>
     <string name="pref_design">Zobrazenie</string>
-    <string name="pref_extra_founds">Počet nálezov mimo dátabázu</string>
-    <string name="pref_files_folder">Umiestnenie sůborov</string>
+    <string name="pref_extra_founds">Počet nálezov mimo databázu</string>
+    <string name="pref_files_folder">Umiestnenie súborov</string>
     <string name="pref_fn_publish">Odoslanie(odosielanie?) na web</string>
     <string name="pref_fn_time">Zaokrúhliť čas Field Note</string>
     <string name="pref_logs">Logy a Field Notes</string>
-    <string name="pref_map_disp_track">Zobrazovat stopu v mapě</string>
+    <string name="pref_map_disp_track">Zobrazovať stopu v mape</string>
     <string name="pref_map_save_track">Ukladať záznam stopy</string>
     <string name="pref_map_src">Zdroj mapy</string>
     <string name="pref_map_tcol">Farba stopy</string>
