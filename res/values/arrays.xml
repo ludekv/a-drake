@@ -31,12 +31,12 @@
     <string-array name="fn_publish">
         <item >@string/a_fn_publish1</item>
         <item >@string/a_fn_publish2</item>
-<!--         <item >@string/a_fn_publish3</item> -->
+        <item >@string/a_fn_publish3</item>
     </string-array>
     <string-array name="fn_publishValues">
         <item >save</item>
         <item >publish</item>
-<!--         <item >ask</item> -->
+        <item >ask</item>
     </string-array>
     <string-array name="themes">
         <item >@string/a_theme_light</item>
@@ -175,5 +175,13 @@
 		<item>Reference Point</item>
 		<item>Stages of a Multicache</item>
 		<item>Trailhead</item>
-    </string-array>        
+    </string-array>
+    <string-array name="numFormat">
+        <item>NumFormat</item>
+        <item>Bin --></item>
+        <item>Oct --></item>
+        <item>Dec --></item>
+        <item>Hex --></item>
+    </string-array>
+        
 </resources>
