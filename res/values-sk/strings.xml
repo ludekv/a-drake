@@ -19,8 +19,8 @@
     <string name="a_mapwpt_none">Nezobrazovať</string>
     <string name="a_mapwpt_sel">Iba k vybranej keši</string>
     <string name="a_owner_all">Všetko</string>
-    <string name="a_owner_foreign">Cudzia (Cudzí)?</string>
-    <string name="a_owner_own">Vlastná (Vlastné)?</string>
+    <string name="a_owner_foreign">Cudzie</string>
+    <string name="a_owner_own">Vlastné</string>
     <string name="a_pos_gps">Pozícia z GPS</string>
     <string name="a_pos_man">Zadané súradnice</string>
     <string name="a_tag_excl">Nesmie mať tag s hodnotou</string>
@@ -33,14 +33,14 @@
     <string name="about_1">Komplexné riešenie pre geocaching</string>
     <string name="about_appver">Verzia aplikácie</string>
     <string name="about_dbver">Verzia dátabáze GeoGet</string>
-    <string name="about_live_1">Prezývka (Nick)?</string>
+    <string name="about_live_1">Prezývka</string>
     <string name="about_live_2">Typ členstva</string>
     <string name="about_live_3">Počet nálezov</string>
     <string name="about_live_4">Počet ukrytých</string>
     <string name="about_live_5">Plný listing keše</string>
     <string name="about_live_6">Základné informacie o keši</string>
     <string name="about_live_7">Limit</string>
-    <string name="about_live_8">Použito(?)</string>
+    <string name="about_live_8">Použité</string>
     <string name="about_live_9">nemusí byť presné, aktualizuje se pri stiahnutí keší</string>
     <string name="about_live_status">Stav Geocaching Live</string>
     <string name="about_release_notes">Poznámky k vydaniu</string>
@@ -49,7 +49,7 @@
     <string name="app_name">a:Drake</string>
     <string name="cache_del_confirm">Skutočne chcete vymazať túto keš?</string>
     <string name="cache_deleted">vymazané</string>
-    <string name="cps_north_up">Nastavený sever vždy hore</string>
+    <string name="cps_north_up">Sever nastavený vždy hore</string>
     <string name="cps_position">Pozícia</string>
     <string name="cps_rotate">Nastavené otáčanie</string>
     <string name="cps_target">Cieľ</string>
@@ -87,7 +87,7 @@
     <string name="exp_fn_template">Šablona logu</string>
     <string name="exp_tl_progress">Exportujú sa stopy, prosím čakajte…</string>
     <string name="exp_tl_result">#1 stôp bolo exportovaných do \'#2\'</string>
-    <string name="flt_active">Aktívny(e)?</string>
+    <string name="flt_active">Aktívne</string>
     <string name="flt_address">Adresa</string>
     <string name="flt_archived">Archivovaná</string>
     <string name="flt_cacheType">Typ keše</string>
@@ -155,7 +155,7 @@
     <string name="live_bmw2">Po stiahnutí tejto keše ti zostane #1 keš(í) do #2, kedy bude limit vynulovaný.</string>
     <string name="live_bmw3">Zadováž si Premium členstvo na Geocaching.com za US $30 na rok a budeš môcť stiahnuť plné detaily až pre 6000 keší denne, uvidíš všetky typy keší v okolí a dostaneš ďalšie výhody. Navštív geocaching.com.</string>
     <string name="live_info">Zostáva: #1; dnes stiahnuté: #2; limit: #3</string>
-    <string name="live_loading_more">Načítam ďalšie(í?)…</string>
+    <string name="live_loading_more">Načítam ďalšie…</string>
     <string name="live_loading_wait">Nie tak rýchlo…</string>
     <string name="live_title">Prístup Live</string>
     <string name="locAccuracy">Presnosť</string>
@@ -220,7 +220,7 @@
     <string name="pref_design">Zobrazenie</string>
     <string name="pref_extra_founds">Počet nálezov mimo databázu</string>
     <string name="pref_files_folder">Umiestnenie súborov</string>
-    <string name="pref_fn_publish">Odoslanie(odosielanie?) na web</string>
+    <string name="pref_fn_publish">Odoslanie na web</string>
     <string name="pref_fn_time">Zaokrúhliť čas Field Note</string>
     <string name="pref_logs">Logy a Field Notes</string>
     <string name="pref_map_disp_track">Zobrazovať stopu v mape</string>
@@ -229,7 +229,7 @@
     <string name="pref_map_tcol">Farba stopy</string>
     <string name="pref_map_type">Vrstva mapy</string>
     <string name="pref_map_wpts">Waypointy v mape</string>
-    <string name="pref_nickname">Prezývka(Nick?)</string>
+    <string name="pref_nickname">Prezývka</string>
     <string name="pref_search_file">Nájsť súbor</string>
     <string name="pref_settings">Nastavenie</string>
     <string name="pref_tab_alert">Signál</string>
@@ -241,7 +241,7 @@
     <string name="pref_use_radar">Používať radar</string>
     <string name="pref_use_radar2">Prepnúť kompas na radar pri záverečnom priblížení</string>
     <string name="search_m_sort">Zoradiť</string>
-    <string name="search_m_sort_age">Stáří(Vek?)</string>
+    <string name="search_m_sort_age">Keš je stará</string>
     <string name="search_m_sort_auth">Meno autora</string>
     <string name="search_m_sort_diff">Obtiažnosť</string>
     <string name="search_m_sort_dist">Vzdialenosť</string>
@@ -271,7 +271,7 @@
     <string name="wpt_name">Prefix/Názov</string>
     <string name="wpt_note">Poznámka, vzorec</string>
     <string name="wpt_paste_formula">Vložiť vzorce</string>
-    <string name="wpt_prefix_invalid">(Po)Užité(?)</string>
+    <string name="wpt_prefix_invalid">Užité</string>
     <string name="wpt_prefix_missing">Chýba</string>
     <string name="wpt_proj_bearing">Azimut k novému bodu</string>
     <string name="wpt_proj_distance">Vzdialenosť k novému bodu</string>
