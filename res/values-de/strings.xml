@@ -16,7 +16,7 @@
     <string name="a_mapwpt_all">Alle anzeigen</string>
     <string name="a_mapwpt_nfnd">Nur zu gefundenen Caches</string>
     <string name="a_mapwpt_none">Nicht anzeigen</string>
-    <string name="a_mapwpt_sel">Nur zu augewählten Caches</string>
+    <string name="a_mapwpt_sel">Nur zu ausgewählten Caches</string>
     <string name="a_owner_all">Alles</string>
     <string name="a_owner_foreign">Fremde</string>
     <string name="a_owner_own">Eigene</string>
@@ -88,7 +88,7 @@
     <string name="exp_tl_result">#1 Track-Logs wurden nach \'#2\' exportiert</string>
     <string name="flt_active">Aktiv</string>
     <string name="flt_address">Adresse</string>
-    <string name="flt_archived">Archivierte</string>
+    <string name="flt_archived">Archiviert</string>
     <string name="flt_cacheType">Cache Typ</string>
     <string name="flt_code">GC Code</string>
     <string name="flt_del_confirm">Wollen Sie diesen wirklich Filter löschen?</string>
