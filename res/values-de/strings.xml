@@ -261,14 +261,13 @@
     <string name="wpt_cm_nav">Zum Wegpunkt navigieren</string>
     <string name="wpt_cm_proj">Wegpunkt projizieren</string>
     <string name="wpt_cmt">Kom.</string>
-    <string name="wpt_coord_invalid">Verwenden Sie bitte das Format GG°MM.MMM (° kann durch \\, : oder d ersetzt werden)</string>
+    <string name="wpt_coord_invalid">Verwenden Sie bitte das Format GG°MM.MMM</string>
     <string name="wpt_del_confirm">Wollen Sie diesen Wegpunkt wirklich löschen?</string>
     <string name="wpt_do_not_overwrite">Bei Import nichts überschreiben</string>
     <string name="wpt_last_update">Letzte Aktualisierung</string>
     <string name="wpt_lat">Breitengrad</string>
     <string name="wpt_lon">Längengrad</string>
     <string name="wpt_name">Prefix/Titel</string>
-    <string name="wpt_note">Bemerkung, Formel</string>
     <string name="wpt_paste_formula">Formel einfügen</string>
     <string name="wpt_prefix_invalid">In Benutzung</string>
     <string name="wpt_prefix_missing">Fehlt</string>
@@ -276,4 +275,24 @@
     <string name="wpt_proj_distance">Entfernung zum neuen Punkt</string>
     <string name="wpt_solve_formula">Formel ausrechnen</string>
     <string name="wpt_sum">Quersumme</string>
+    
+    <string name="det_note_hint">Note\n\nUse pencil at top right to edit the variables for the formula</string>
+    <string name="det_vars_hint">Variables for the formula\n\n A=1\n B:2\n etc…</string>
+    <string name="wpt_note">Bemerkung</string>
+    <string name="wpt_frm">Formel</string>
+    
+    <string name="wpt_norm_formula">Formel vereinfachen</string>
+    <string name="wpt_vars">Variablen</string>
+    <string name="wpt_res">Ergebnis</string>
+    
+    <string name="close">Schliessen</string>
+	<string name="wpt_invalid_coords">Kann Koordinaten nicht einfügen. Unbekanntes Format!</string>
+    
+	<string name="eval_zero_division">Division durch Null</string>
+	<string name="eval_missing_operand">Operand fehlt für</string>
+	<string name="eval_parse_error">Übersetzungsfehler</string>
+	<string name="eval_variable_not_set">Ungebundene Variable</string>
+	<string name="eval_invalid_number">Ungültige Zahl</string>
+	<string name="eval_unknown_error">Unbekannter Fehler</string>
+			
 </resources>
