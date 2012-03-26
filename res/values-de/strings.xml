@@ -276,8 +276,8 @@
     <string name="wpt_solve_formula">Formel ausrechnen</string>
     <string name="wpt_sum">Quersumme</string>
     
-    <string name="det_note_hint">Note\n\nUse pencil at top right to edit the variables for the formula</string>
-    <string name="det_vars_hint">Variables for the formula\n\n A=1\n B:2\n etc…</string>
+    <string name="det_note_hint">Anmerkung\n\nZur Variableneingabe für die Formeln benutze den Bleistift rechts oben</string>
+    <string name="det_vars_hint">Variablen für die Formeln\n\n A=1\n B:2\n usw…</string>
     <string name="wpt_note">Bemerkung</string>
     <string name="wpt_frm">Formel</string>
     
