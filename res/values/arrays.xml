@@ -46,6 +46,16 @@
         <item >LightTheme</item>
         <item >DarkTheme</item>
     </string-array>
+    <string-array name="orientation">
+        <item >@string/a_ori_auto</item>
+        <item >@string/a_ori_port</item>
+        <item >@string/a_ori_land</item>
+        </string-array>
+    <string-array name="orientationValues">
+        <item >auto</item>
+        <item >portrait</item>
+        <item >landscape</item>
+    </string-array>
     <string-array name="mapWpts">
         <item >@string/a_mapwpt_none</item>
         <item >@string/a_mapwpt_sel</item>
@@ -126,10 +136,10 @@
         <item >Needs Archived</item>
     </string-array>
     <string-array name="logTypesEvent">
+        <item >Attended</item>
         <item >Write note</item>
         <item >Needs Archived</item>
         <item >Will Attend</item>
-        <item >Attended</item>
     </string-array>
     <string-array name="logTypesWebC">
         <item >Webcam Photo Taken</item>
@@ -149,10 +159,10 @@
         <item >Owner Maintenance</item>
     </string-array>
     <string-array name="logTypesOEvent">
+        <item >Attended</item>
         <item >Write note</item>
         <item >Needs Archived</item>
         <item >Will Attend</item>
-        <item >Attended</item>
         <item >Temporarily Disable Listing</item>
         <item >Enable Listing</item>
         <item >Owner Maintenance</item>

@@ -4,4 +4,12 @@
 		<item name="android:textColor">?text_color</item>
 		<item name="android:background">@drawable/menu_button</item>    
     </style>    
+    <style name="gaugeLt">
+        <item name="android:background">@drawable/rounded_rect_lt</item>
+        <item name="android:layout_margin">3dip</item>
+    </style>
+    <style name="gaugeBl">
+        <item name="android:background">@drawable/rounded_rect_bl</item>
+        <item name="android:layout_margin">3dip</item> 
+    </style>
 </resources>

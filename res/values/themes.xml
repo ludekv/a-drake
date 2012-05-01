@@ -3,10 +3,18 @@
 
     <style name="LightTheme" parent="@android:style/Theme.Light">
         <item name="text_color">@color/text_black</item>
-    </style>
+        <item name="gaugeBackground">@style/gaugeLt</item>        
+        <item name="altProfileBackground">@color/alt_profile_bg_lt</item>        
+        <item name="altProfileGraphLine">@color/alt_profile_ln_lt</item>        
+        <item name="altProfileGraphFill">@color/alt_profile_fi_lt</item>        
+        </style>
 
     <style name="BlackTheme" parent="@android:style/Theme.Black">
         <item name="text_color">@color/text_white</item>
-    </style>
+        <item name="gaugeBackground">@style/gaugeBl</item>        
+        <item name="altProfileBackground">@color/alt_profile_bg_bl</item>        
+        <item name="altProfileGraphLine">@color/alt_profile_ln_bl</item>        
+        <item name="altProfileGraphFill">@color/alt_profile_fi_bl</item>        
+        </style>
 
 </resources>

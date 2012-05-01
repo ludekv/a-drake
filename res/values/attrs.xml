@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <declare-styleable name="IconCheckBoxPreference">
-         <attr name="icon" format="reference" />
+        <attr name="icon" format="reference" />
     </declare-styleable>
+
+    <attr name="text_color" format="color" />
+    <attr name="gaugeBackground" format="reference" />
+    <attr name="altProfileBackground" format="color" />
+    <attr name="altProfileGraphLine" format="color" />
+    <attr name="altProfileGraphFill" format="color" />
     
-    <attr name="text_color" format="color"/>
+    <declare-styleable name="GaugeView">
+        <attr name="label" format="string" />
+        <attr name="value" format="string" />
+    </declare-styleable>
+
 </resources>

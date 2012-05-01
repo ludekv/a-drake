@@ -7,4 +7,12 @@
     <color name="accuracy_fill">#30c0daf6</color>
     <color name="accuracy_stroke">#ff015cc3</color>
     <color name="track">#ffff9116</color>
+    
+    <!-- colors used by AltProfileView -->
+    <color name="alt_profile_bg_lt">#fff8f8f8</color>
+    <color name="alt_profile_ln_lt">#ff009000</color>
+    <color name="alt_profile_fi_lt">#ffc0ffc0</color>
+    <color name="alt_profile_bg_bl">#ff404040</color>
+    <color name="alt_profile_ln_bl">#ffc0ffc0</color>
+    <color name="alt_profile_fi_bl">#ff009000</color>
 </resources>
